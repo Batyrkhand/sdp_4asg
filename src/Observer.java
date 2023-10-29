@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Observer {
+interface Observer {
+    void update(double previousRate, double newRate);
 }
